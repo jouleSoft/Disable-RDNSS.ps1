@@ -35,7 +35,7 @@
 
 
 .EXAMPLE
-  If TotalDisable parameter is activated, IPv6 stack will be also disable from all interfaces
+  If TotalDisable parameter is activated, TCP/IPv6 stack will be also disable from all interfaces
 
   Disable-IPv6W10.ps1 -TotalDisable
 
@@ -162,7 +162,7 @@ Get-NetIPInterface -AddressFamily ipv6 | Foreach-Object {
     }
 }
 
-# If TotalDisable parameter is activated, disabling also IPv6 stack from all interfaces
+# If TotalDisable parameter is activated, disabling also TCP/IPv6 stack from all interfaces
 if ($TotalDisable){
     $(Get-NetAdapterBinding -ComponentID ms_tcpip6).Name | Foreach-Object {
         disable-NetAdapterBinding -InterfaceAlias "$_" -ComponentID ms_tcpip6
