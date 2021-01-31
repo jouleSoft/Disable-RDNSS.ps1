@@ -11,8 +11,8 @@ codefactor-badge: True
 
 <!-- start badges -->
 ![License MIT](https://img.shields.io/badge/license-MIT-green)
-![Contributors](https://img.shields.io/github/contributors-anon/jouleSoft/Test-Ports.ps1)
-![Last commit](https://img.shields.io/github/last-commit/jouleSoft/Test-Ports.ps1)
+![Contributors](https://img.shields.io/github/contributors-anon/jouleSoft/Disable-RDNSS.ps1)
+![Last commit](https://img.shields.io/github/last-commit/jouleSoft/Disable-RDNSS.ps1)
 <!-- end badges -->
 
 <!-- start description -->
