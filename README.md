@@ -17,7 +17,7 @@ codefactor-badge: True
 
 <!-- start description -->
 <h1 align="center"><span id="project_title">Disable-RDNSS.ps1</span></h1>
-<p><span id="project_title">Disable-RDNSS.ps1</span> is a PowerShell script which disables ICMPv6 RDNSS from all availiable network interfaces to solve the published vulnerability in Bad Neighbor by Centro Criptológico Nacional (CCN) on Microsoft Windows 10, Microsoft Windows Server 2016, Microsoft Windows Server 2012-R2, Microsoft Windows Server 2012.</p>
+<p><span id="project_title">Disable-RDNSS.ps1</span> is a PowerShell script which disables ICMPv6 RDNSS from all availiable network interfaces. This solves the published vulnerability in Bad Neighbor by Centro Criptológico Nacional (CCN) on Microsoft Windows 10, Microsoft Windows Server 2016, Microsoft Windows Server 2012-R2, Microsoft Windows Server 2012.</p>
 <!-- end description -->
 
 <!-- start prerequisites -->
